@@ -1,0 +1,6 @@
+torch==1.12.1
+numpy==1.21.2
+matplotlib==3.4.3
+traci==1.0.0
+sumolib==1.0.0
+pandas==1.3.3

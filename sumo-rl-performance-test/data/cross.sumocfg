@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="network.net.xml"/>
+        <route-files>
+            <route-file value="routes.rou.xml"/>
+        </route-files>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+    <simulation>
+        <step-length value="1.0"/>
+        <random value="false"/>
+    </simulation>
+    <output>
+        <output-file value="output.xml"/>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+    <additional>
+        <traffic-lights>
+            <traffic-light id="0" type="static" />
+        </traffic-lights>
+    </additional>
+</configuration>
